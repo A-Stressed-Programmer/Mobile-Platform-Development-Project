@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ryan.rcobb200_s1630846.MainSession">
+
+    <!-- MainSession -->
+    <!-- Main Widgets -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/prw_button"
+            android:layout_width="160dp"
+            android:layout_height="57dp"
+            android:text="Planned Road Works"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="86dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/ci_button"
+            android:layout_width="157dp"
+            android:layout_height="56dp"
+            android:text="Current Incidents"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="16dp"
+            tools:ignore="MissingConstraints" />
+        <Button
+            android:id="@+id/maps_button"
+            android:layout_width="158dp"
+            android:layout_height="45dp"
+            android:text="Locate on Map"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="152dp" />
+        <Button
+            android:id="@+id/exit_button"
+            android:layout_width="159dp"
+            android:layout_height="46dp"
+            android:text="Exit Application"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="115dp"
+            tools:layout_editor_absoluteY="208dp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
